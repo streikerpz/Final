@@ -14,7 +14,7 @@ namespace Topicos.NorthWnd.BL.Logica.Interface
         IList<Product> QryPorRangoDePrecio(decimal limiteInferior, decimal limiteSuperior);
 
         IList<Product> QryPorNombreCategoriaAproximado(string elNombreDeLaCategoria);
-        IList<Product> QryPorNombreAproximadoConIntervalo(string elNombreDeLaCategoria);
+       
 
     }
 }
