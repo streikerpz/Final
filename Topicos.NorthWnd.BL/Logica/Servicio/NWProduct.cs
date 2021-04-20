@@ -46,11 +46,6 @@ namespace Topicos.NorthWnd.BL.Logica.Servicio
             var elResultado = laAccion.QryPorNombreCategoriaAproximado(elNombreDelProducto);
             return elResultado;
         }
-        public IList<Product> QryPorNombreAproximadoConIntervalo(string elNombreDelProducto)
-        {
-            var laAccion = new Logica.Accion.Product(_elContexto);
-            var elResultado = laAccion.QryPorNombreAproximadoConIntervalo(elNombreDelProducto);
-            return elResultado;
-        }
+        
     }
 }
