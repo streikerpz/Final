@@ -45,11 +45,6 @@ namespace Topicos.NorthWnd.BL.Logica.Accion
             var elResultado = elRepositorio.QryPorCategoriaAproximado(elNombreDelProducto);
             return elResultado;
         }
-        public IList<Model.Models.Product> QryPorNombreAproximadoConIntervalo(string elNombreDelProducto)
-        {
-            var elRepositorio = new Logica.Repositorio.Product(_elContexto);
-            var elResultado = elRepositorio.QryPorNombreAproximadoConIntervalo(elNombreDelProducto);
-            return elResultado;
-        }
+        
     }
 }
